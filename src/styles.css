@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+h1,
+h3,
+p,
+button,
+input {
+  font-family: "Fira Sans Condensed", sans-serif !important;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+form {
+  margin: 0.5rem;
+}
+
+input,
+span {
+  width: 200px;
+}
+
+label {
+  margin: 1rem;
+}
+
+.card {
+  background-color: transparent;
+  margin: 0.5rem;
+}
